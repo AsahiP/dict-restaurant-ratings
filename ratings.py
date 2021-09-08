@@ -26,14 +26,21 @@ def restaurant_info(file):
         line_str = line.strip() #stripping white space
         # print(line_str)
         line_list = line_str.split("\n") #breaking at each end of line
-        return line_list
+    print(line_list)
+    return line_list
+    
+restaurant_info(scores_file)
         
+# lst_to_sort = restaurant_info(scores_file)
 
-sorted_restaurant_info(scores_file)
 
-def sort_restaurant_info():
-    "Alphabetizing information by restaurant name"
-    sorted_line_list = line_list.sort()
-        print(sorted_line_list)
-        return sorted_line_list
-        return line
+# def sort_restaurant_info():
+#     "Alphabetizing information by restaurant name"
+#     # restaurant_lst = restaurant_info(file)
+#     # print(restaurant_lst)
+#     for line in lst_to_sort:
+#         alpha_line_list = lst_to_sort.sort()
+#         print(alpha_line_list)
+
+
+# sort_restaurant_info()
